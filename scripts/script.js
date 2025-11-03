@@ -53,7 +53,7 @@ function filterByGenre(genre) {
 
 // Load and display a book
 async function loadBook(filename) {
-  const res = await fetch(`books/${filename}`);
+  const res = await fetch(`../books/${filename}`);
   const text = await res.text();
   const book = books.find(b => b.file === filename);
 
