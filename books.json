@@ -1,0 +1,5 @@
+[
+  { "title": "Book One", "file": "book1.md", "genre": "Fantasy" },
+  { "title": "Book Two", "file": "book2.md", "genre": "Poetry" },
+  { "title": "Book Three", "file": "book3.md", "genre": "Fantasy" }
+]
