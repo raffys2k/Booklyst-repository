@@ -11,7 +11,8 @@
     <h1>📚 My Reader</h1>
   </header>
 
-  <main>
+  <!-- Library View -->
+  <section id="library">
     <section id="continue">
       <h2>Continue Reading</h2>
       <div id="continueContent">No book opened yet.</div>
@@ -19,20 +20,22 @@
 
     <section id="suggested">
       <h2>Suggested Works</h2>
-      <ul id="suggestedList"></ul>
+      <div id="suggestedList"></div>
     </section>
 
     <section id="genres">
       <h2>Browse by Genre</h2>
       <div id="genreButtons"></div>
-      <ul id="genreList"></ul>
+      <div id="genreList"></div>
     </section>
+  </section>
 
-    <section id="reader">
-      <h2 id="bookTitle"></h2>
-      <div id="content">Select a book to start reading.</div>
-    </section>
-  </main>
+  <!-- Reader View -->
+  <section id="reader" style="display:none;">
+    <button onclick="backToLibrary()">← Back to Library</button>
+    <h2 id="bookTitle"></h2>
+    <div id="content"></div>
+  </section>
 
   <!-- Marked.js for Markdown parsing -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>

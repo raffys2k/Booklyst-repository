@@ -1,5 +1,4 @@
 let books = [];
-let currentBook = null;
 
 // Utility: render a book as a clickable cover card
 function renderBookCard(book) {
@@ -67,7 +66,16 @@ async function loadBook(filename) {
 
   // Update suggestions
   showSuggestions(book.genre, book.file);
+
+  // Switch views
+  document.getElementById("library").style.display = "none";
+  document.getElementById("reader").style.display = "block";
 }
 
-// Initialize
+// Back to library
+function backToLibrary() {
+  document.getElementById("reader").style.display = "none";
+  document.getElementById("library").style.display = "block";
+}
+
 loadLibrary();
