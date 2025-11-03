@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: raffys2k/Booklyst-repository
   branch: master
+  base_url: https://api.netlifycms.org
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
