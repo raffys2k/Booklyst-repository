@@ -12,7 +12,7 @@ function renderBookCard(book) {
 
 // Load the library and build UI sections
 async function loadLibrary() {
-  const res = await fetch("books.json");
+  const res = await fetch("../books.json");
   books = await res.json();
 
   // Continue Reading
