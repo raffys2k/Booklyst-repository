@@ -1,5 +1,6 @@
 [
-  { "title": "Book One", "file": "book1.md", "genre": "Fantasy" },
-  { "title": "Book Two", "file": "book2.md", "genre": "Poetry" },
-  { "title": "Book Three", "file": "book3.md", "genre": "Fantasy" }
+  { "title": "Book One", "file": "book1.md", "genre": "Fantasy", "cover": "covers/book1.jpg" },
+  { "title": "Book Two", "file": "book2.md", "genre": "Poetry", "cover": "covers/book2.jpg" },
+  { "title": "Book Three", "file": "book3.md", "genre": "Fantasy", "cover": "covers/book3.jpg" }
 ]
+
