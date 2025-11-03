@@ -1,0 +1,3 @@
+# Whispers of the Bay
+
+The waves of San Isidro carried not only salt and wind but voices from long ago. Tomas, the fisherman’s son, could hear them when the moon rose high...

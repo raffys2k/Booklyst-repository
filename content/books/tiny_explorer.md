@@ -1,0 +1,3 @@
+# The Tiny Explorer
+
+Luna was small, but her curiosity was enormous. In her backyard, she found a jungle made of ferns, mountains made of rocks, and friends who chirped in the morning light...

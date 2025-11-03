@@ -1,0 +1,3 @@
+# The Star Garden
+
+Once upon a time, a young girl named Lira looked up at the night sky and saw a twinkle that wasn’t a star but a seed. She followed it to a secret garden that bloomed among the constellations...
