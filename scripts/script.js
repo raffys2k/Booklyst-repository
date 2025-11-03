@@ -5,7 +5,6 @@ function renderBookCard(book) {
   return `
     <div class="book-card" onclick="loadBook('${book.file}')">
       <img src="${book.cover}" alt="${book.title} cover">
-      <p>${book.title}</p>
     </div>
   `;
 }
